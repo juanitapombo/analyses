@@ -109,7 +109,7 @@ def compute_rdf(distances, dr, r_max, nframes, deposited=False):
 
     return rdf, r_bins
 
-def plot_rdf(rdf, r_bins, path):
+def plot_rdf(rdf, r_bins):
     plt.figure(figsize=(4, 3))
     plt.xlabel(r'$r [nm]$', fontsize=12)
     plt.ylabel(r'$ρ(r) [nuc/nm^3]$', fontsize=12)
