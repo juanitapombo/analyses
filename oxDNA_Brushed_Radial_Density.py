@@ -176,6 +176,6 @@ np.savetxt('rdf_data.txt', np.column_stack((r_bins, rdf)), header='r_bins\t rdf'
 
 print("computed rdf and saved txt file in current working directory")
 
-plot_rdf(rdf, r_bins, path)
+plot_rdf(rdf, r_bins)
 
 print("plotted rdf and saved image in current working directory")
